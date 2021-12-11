@@ -1,12 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Книги,
+    Книга,
+    Книжный магазин,
+    Купить книги,
+    Купить книги Москва,
+    Магазин книг Москва
+    Литература
+    Литература купитьS
+    Литература Москва 
+    Читать.
+    ">
+    <meta name="dicription" content ="Книжный магазин в городе Москва">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/script/question.js"></script>
+    <script src="/script/link.js"></script>
+    <script src="/script/back.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header id="header">
+        <div class="link" onclick="scroll_books()">
+            Купить
+        </div>
+        <div class="link" onclick="scroll_about()">
+            О нас
+        </div>
+        <div class="link" onclick="scroll_where()">
+            Где мы
+        </div>
+        <div class="link" onclick="scroll_faq()">
+            FAQ
+        </div>
+    </header>
+    <div id="logo">
+        Ugol
+    </div>
+
+    <div id ="back">
+        <div class="back_img" onclick="back()">
+            <img src="/svg/back.png" alt="">
+        </div>   
+    </div>
+    <div id="main">
+        <div id="zagolovok">
+            <img src="/images/zagolovok.jpg" alt="">
+        </div>
+        <div class="books" id="books">
+            <a href ="/books/book1.html"class="book">
+                <div class="book_img">
+                    <img src="/images/1.jpg" alt="">
+                </div>
+                <div class="inf">
+                    <div class="info">
+                        Краткая история человечества
+                    </div>
+                    <div class="info">
+                        Книга профессора Юваля Ноа Харари, впервые опубликованная на иврите в Израиле в 2011 году, а на
+                        английском языке в 2014 году. Харари называет одним из основных источников вдохновения книгу
+                        «Ружья, микробы и сталь» Джареда Даймонда, показавшую, что можно «задавать очень большие вопросы
+                        и отвечать на них научно».
+                    </div>
+                    <div class="info">
+                        цена:480
+                    </div>
+                </div>
+            </a>
+            <a href ="/books/book2.html" class="book">
+                <div class="book_img">
+                    <img src="/images/2.jpg" alt="">
+                </div>
+                <div class="inf">
+                    <div class="info">
+                        Бог как илюзия
+                    </div>
+                    <div class="info">
+                        Книга английского этолога, биолога, популяризатора науки Ричарда Докинза, профессора
+                        Оксфордского университета. В книге Докинз приводит доводы в пользу того, что сверхъестественного
+                        создателя почти наверняка не существует, а вера в персонифицированное божество - это иллюзия.
+                    </div>
+                    <div class="info">
+                        цена:320
+                    </div>
+                </div>
+            </a>
+            <a href ="/books/book3.html" class="book">
+                <div class="book_img">
+                    <img src="/images/3.jpg" alt="">
+                </div>
+                <div class="inf">
+                    <div class="info">
+                        Гармоны счатья
+                    </div>
+                    <div class="info">
+                        Автор этой книги предлагает узнать все о работе гормонов, механизмах образования эмоций,
+                        поведения и работе различных нейрохимических веществ. А еще о том, как ваш мозг создает
+                        устойчивые привычки и почему так трудно освободиться от тех из них, которые считаются плохими
+                        или пагубными.
+                    </div>
+                    <div class="info">
+                        цена:380
+                    </div>
+                </div>
+            </a>
+            <a href ="/books/book4.html" class="book">
+                <div class="book_img">
+                    <img src="/images/4.jpg" alt="">
+                </div>
+                <div class="inf">
+                    <div class="info">
+                        Преступление и наказание
+                    </div>
+                    <div class="info">
+                        Социально-психологический и социально-философский роман Фёдора Михайловича Достоевского, над
+                        которым писатель работал в 1865-1866 годах. Впервые опубликован в 1866 году в журнале «Русский
+                        вестник». Через год вышло в свет отдельное издание, структура которого была немного изменена по
+                        сравнению с журнальной редакцией; кроме того, автор внёс в книжный вариант ряд сокращений и
+                        стилистических правок.
+                    </div>
+                    <div class="info">
+                        цена:420
+                    </div>
+                </div>
+            </a>
+            <a href ="/books/book5.html" class="book">
+                <div class="book_img">
+                    <img src="/images/5.jpg" alt="">
+                </div>
+                <div class="inf">
+                    <div class="info">
+                        451 градус по фаренгейта
+                    </div>
+                    <div class="info">
+                        Научно-фантастический роман-антиутопия Рэя Брэдбери, изданный в 1953 году. Роман описывает
+                        американское общество близкого будущего, в котором книги находятся под запретом; «пожарные», к
+                        числу которых принадлежит и главный герой Гай Монтэг, сжигают любые найденные книги.
+                    </div>
+                    <div class="info">
+                        цена:440
+                    </div>
+                </div>
+            </a>
+            <a href ="/books/book6.html" class="book">
+                <div class="book_img">
+                    <img src="/images/6.jpg" alt="">
+                </div>
+                <div class="inf">
+                    <div class="info">
+                        Горе от ума
+                    </div>
+                    <div class="info">
+                        Комедия в стихах Александра Сергеевича Грибоедова. Она сочетает в себе элементы классицизма и
+                        новых для начала XIX века романтизма и реализма. Она описывает светское общество времён
+                        крепостного права и показывает жизнь 1808-1824 годов. Само «действие происходит… спустя десять
+                        лет после войны 1812 года, то есть в 1822».
+                    </div>
+                    <div class="info">
+                        цена:360
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="about" id="about">
+            <div class="zag">
+                О нас
+            </div>
+            <div id="stat">
+                "УГОЛ" - книжный интернет-магазин с доставкой по всей России, где можно купить ваши любимые книги. У нас вы подберете себе чтение по душе. Главные новинки, нестареющая классика, книги для учебы, работы и творчества, детская литература – все это можно купить у нас. Получить свои книги легко и быстро можно в ближайших пунктах выдачи или с курьерской доставкой. Мы любим дарить подарки, радовать большими скидками, интересными конкурсами и флешмобами. Ведь "Угол" – это не просто интернет-магазин книг, а настоящий клуб любителей чтения. Станьте его частью!
+
+            </div>
+        </div>
+        <div id="where">
+            <div class="zag">
+                Как нас найти
+            </div>
+            <div id="map">
+                <div style="overflow:hidden;">
+                    <a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
+                        style="color:#eee;font-size:12px;">
+                    </a>
+                    <a href="https://yandex.ru/maps/213/moscow/house/ulitsa_isakovskogo_28k1/Z04YcgZmQU0OQFtvfXRxdnhkYg==/?ll=37.417723%2C55.808086&utm_medium=mapframe&utm_source=maps&z=18.58"
+                        style="color:#eee;font-size:12px;">
+                    </a>
+                    <iframe src="https://yandex.ru/map-widget/v1/-/CCUuFHC5kD" frameborder="1" allowfullscreen="true"
+                        style="height: 400px; width: 100%;">
+                    </iframe>
+                </div>
+            </div>
+            <div id="faq">
+                <div class="zag">
+                    FAQ
+                </div>
+                <div id="qs">
+                    <div class="q" onclick="show_answer_1()">
+                        <div class="question">
+                            Можно ли заказать книги через сайт?
+                            <div class="answer" id="answer1">
+                                К сожелению пока такой функции на нашем сайте нет.
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="q" onclick="show_answer_2()">
+                        <div class="question">
+                            Как добраться до вас от метро?
+                            <div class="answer" id="answer2">
+                                <img src="/images/map.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="q" onclick="show_answer_3()">
+                        <div class="question">
+                            Это весь катлог, который у вас имеется?
+                            <div class="answer" id="answer3">
+                                Так как наш магазин новый, у нас не очень большой выбор, но это исправится в ближайшее
+                                время.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div class="svg">
+                <img src="/svg/insta.svg" alt="">
+            </div>
+
+        </div>
+        <div>
+            <div class="svg">
+                <img src="/svg/face.svg" alt="">
+            </div>
+        </div>
+        <div>
+            <div class="svg">
+                <img src="/svg/twitter.svg" alt="">
+            </div>
+        </div>
+        <div>
+            <div class="svg">
+                <img src="/svg/reddit.svg" alt="">
+            </div>
+        </div>
+
+    </footer>
 </body>
+
 </html>
